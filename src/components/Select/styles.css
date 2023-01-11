@@ -1,16 +1,16 @@
-.select-block{
+.select-block {
     position: relative;
 }
 
-.select-block + .selectblock{
+.select-block + .selectblock {
         margin-top: 1.4rem;
     }
 
-.select-block label{
+.select-block label {
     font-size: 1.4rem;
 }
 
-.select-block select{
+.select-block select {
     width: 100%;
     height: 5.6rem;
     margin-top: 0.8rem;
@@ -22,7 +22,7 @@
     font: 1.6rem Archivo;
 }
 
-.select-block:focus-within::after{
+.select-block:focus-within::after {
     width: calc(100% - 3.2rem);
     height: 2px;
     content: '';
